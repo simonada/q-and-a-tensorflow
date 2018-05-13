@@ -10,12 +10,12 @@ I. Prerequisites:
 1. TensorFlow 1.7 : https://www.tensorflow.org/install/
 2. Python packages 
 - tqdm : https://pypi.python.org/pypi/tqdm#installation
-3. Datasets
+3. Datasets (also available as .zip file in the src folder)
 - GloVe pre-trained embeddings:  http://nlp.stanford.edu/data/glove.6B.zip
 - The tasks data: https://s3.amazonaws.com/text-datasets/babi_tasks_1-20_v1-2.tar.gz
 
 II. Running the models:
-1. Download the data if not yet done and store it in 'data' in the same folder where the notebooks are
+1. Unzip the data.zip in the src folder. Alternatively, you can download the data and store it. Please make sure to adjust the corresponding path in the Notebooks in the latter case.
 2. Run "Q&A with TF- tf.layers and low-level API": the notebook contains the most explanations on the models logic, and also outputs the wrong predictions made at the end of the training and testing phase.
 3.  Run any of the other notebooks.
 
