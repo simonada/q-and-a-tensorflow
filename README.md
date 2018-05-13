@@ -7,10 +7,11 @@ The project aims at exploring different alternatives to implement a neural netwo
 3. Q&A with TF- TFRecords and Eager Execution : here the logic of the tf.keras model from 2. is encapsulated in a Class. The main difference to the previous solution is that TFRecords is used for the input pipeline. 
 
 I. Prerequisites:
-1. TensorFlow 1.7 : https://www.tensorflow.org/install/
-2. Python packages 
+1. Jupyter : http://jupyter.org/install
+2. TensorFlow 1.7 : https://www.tensorflow.org/install/
+3. Python packages 
 - tqdm : https://pypi.python.org/pypi/tqdm#installation
-3. Datasets (also available as .zip file in the src folder)
+4. Datasets (also available as .zip file in the src folder)
 - GloVe pre-trained embeddings:  http://nlp.stanford.edu/data/glove.6B.zip
 - The tasks data: https://s3.amazonaws.com/text-datasets/babi_tasks_1-20_v1-2.tar.gz
 
@@ -27,4 +28,4 @@ Name and variable scopes were used throughout in order to separate different con
 3.  Relevant tabs:
 - Graphs - giving an overview of the model architecture
 - Scalars - for accuracy and loss evolution during train/ validation
-- Projector for the word embeddings
+- Projector for the word embeddingshttp://jupyter.org/install
